@@ -1,0 +1,27 @@
+.nav{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    box-sizing: border-box; /* 절대적인 박스의 크기를 유지하라는 의미. */
+    border-top: 1px solid rgba(0,0,0.3  );
+}
+
+.nav__list{
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    position: relative; /* .nav__notification에서 position:absolute 와 관련있다. */
+    color: #2e363e;
+}
+
+.nav__notification {
+    
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+
+}
